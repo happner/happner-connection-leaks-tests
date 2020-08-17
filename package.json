@@ -1,0 +1,20 @@
+{
+  "name": "happner-connection-leaks-tests-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rf client/package.json && rm -rf client/package-lock.json && rm -rf client/node_modules && node test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await-delay": "^1.0.0",
+    "commander": "^6.0.0",
+    "fs-extra": "^9.0.1",
+    "handlebars": "^4.7.6",
+    "happner-2": "^11.4.0",
+    "http-proxy": "^1.18.1",
+    "shelljs": "^0.8.4"
+  }
+}
